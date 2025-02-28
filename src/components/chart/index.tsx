@@ -2,7 +2,7 @@
 
 import { ChartLine, DollarSign } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
-import { ChartConfig, ChartContainer } from "../ui/chart";
+import { ChartConfig, ChartContainer, ChartTooltip, ChartTooltipContent } from "../ui/chart";
 import {Bar, BarChart, CartesianGrid, XAxis} from "recharts";
 
 export default function ChartOverview() {
@@ -18,11 +18,11 @@ export default function ChartOverview() {
 
   const chartConfig = {
     desktop: {
-      label: "Desktop",
+      label: "Online",
       color: "#2563eb",
     },
     mobile: {
-      label: "Mobile",
+      label: "Loja física",
       color: "#60a5fa",
     },
   } satisfies ChartConfig;
@@ -52,6 +52,7 @@ export default function ChartOverview() {
                 axisLine={false}
                 tickFormatter={(value) => value.slice(0, 3)}
                 />
+            <ChartTooltip content={<ChartTooltipContent />} />
             <Bar dataKey="desktop" fill="var(--color-desktop)" radius={ 4} />
             <Bar dataKey="mobile" fill="var(--color-desktop)" radius={ 4} />
             </BarChart>
