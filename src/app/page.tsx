@@ -1,3 +1,5 @@
+import ChartOverview from "@/components/chart";
+import Sales from "@/components/sales";
 import {
   Card,
   CardTitle,
@@ -84,7 +86,11 @@ export default function Home() {
         </Card>
       </section>
 
-      <section className="mt-4 flex flex-col md:flex-row gap-4"></section>
+      <section className="mt-4 flex flex-col md:flex-row gap-4">
+
+        <ChartOverview />
+        <Sales/>
+      </section>
     </main>
   );
 }
