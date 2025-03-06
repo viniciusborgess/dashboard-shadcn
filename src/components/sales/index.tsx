@@ -76,8 +76,6 @@ export default function Sales() {
             <span className="text-[12px] sm:text-sm text-gray-400">machadorob@uol.com.br</span>
           </div>
         </article>
-
-        
       </CardContent>
     </Card>
   );
