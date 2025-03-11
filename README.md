@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dashboard de Vendas
 
-## Getting Started
+Este projeto é um painel de controle desenvolvido com **Next.js**, **TypeScript**, **Tailwind CSS** e **ShadCN UI**, proporcionando uma interface moderna e responsiva para a visualização de métricas de vendas.
 
-First, run the development server:
+![image](https://github.com/user-attachments/assets/7c1af2bf-1d92-4c65-af05-01c4c54a13e1)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tecnologias Utilizadas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js** - Framework React para aplicações modernas e performáticas
+- **TypeScript** - Tipagem estática para maior segurança e escalabilidade
+- **Tailwind CSS** - Estilização rápida e responsiva
+- **ShadCN UI** - Componentes acessíveis e elegantes
 
-## Learn More
+## Recursos
 
-To learn more about Next.js, take a look at the following resources:
+- Visão geral das vendas
+- Listagem de clientes recentes
+- Gráficos interativos para análise de dados
+- Design responsivo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Como Rodar o Projeto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Requisitos
 
-## Deploy on Vercel
+- Node.js (v16+)
+- Gerenciador de pacotes (npm ou yarn)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Instalação
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone este repositório:
+   ```sh
+   git clone https://github.com/viniciusborgess/dashboard-shadcn.git
+   ```
+2. Acesse o diretório do projeto:
+   ```sh
+   cd dashboard-shadcn
+   ```
+3. Instale as dependências:
+   ```sh
+   npm install
+   ```
+   ou
+   ```sh
+   yarn install
+   ```
+4. Inicie o servidor de desenvolvimento:
+   ```sh
+   npm run dev
+   ```
+   ou
+   ```sh
+   yarn dev
+   ```
+
+O projeto estará disponível em `http://localhost:3000/`.
+
+
